@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Meter un width maximo */
+
+.rw-0{
+    color: white;
+    text-align: center;
+}
+
+.rw-1{
+    background-color: white;
+    color: grey;
+}
+
+.rw-2{
+    background-color: rgb(204, 204, 204);
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-1{
+    background-color: rgb(58, 58, 58);    
+    border-color: white;
+    width: auto;
+}

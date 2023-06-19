@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.cl-1{
+    color: rgb(0, 140, 255);
+}
+
+.cl-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+textarea{
+    height: 400px;
+}
+
+.form-control{
+    margin-left: 50px;
+    box-shadow: inset 0px 0px 2px 1px grey;
+    width: 800px;
+}

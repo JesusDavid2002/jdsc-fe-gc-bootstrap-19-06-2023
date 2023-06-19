@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+
+.rw-1{
+    height: 5vh;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px 5px 0px 0px;
+}   
+
+nav{
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.cl-1{
+    align-self: center;
+}
+
+.nav-item:hover{
+    background-color: white;
+}
