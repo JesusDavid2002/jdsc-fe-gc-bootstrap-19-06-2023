@@ -4,7 +4,9 @@ body{
     background-size: 100% 100%;
 }
 
-/* Meter un width maximo */
+.cn-1{
+    max-width: 600px;
+}
 
 .rw-0{
     color: white;
