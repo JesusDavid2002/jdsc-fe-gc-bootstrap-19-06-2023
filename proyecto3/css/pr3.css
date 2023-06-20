@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: rgb(155, 155, 155);
 }
 
 .rw-1{
@@ -12,10 +12,25 @@ nav{
     border-radius: 0px 0px 5px 5px ;
 }
 
-.cl-1{
+.cl-1, .cl-2{
     align-self: center;
+    font-weight: bold;
+}
+
+.imgcl-1{
+    width: 20px;
+    height: 20px;
 }
 
 .nav-item:hover{
     background-color: white;
+}
+.nv-1:hover{
+    background-color: white;
+}
+
+.imgnav{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
