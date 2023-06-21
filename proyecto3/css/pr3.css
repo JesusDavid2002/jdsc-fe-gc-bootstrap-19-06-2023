@@ -2,15 +2,12 @@ body{
     background-color: rgb(155, 155, 155);
 }
 
+/* Barra superior */
 .rw-1{
     height: 5vh;
     background-color: rgb(207, 207, 207);
     border-radius: 5px 5px 0px 0px;
 }   
-
-nav{
-    border-radius: 0px 0px 5px 5px ;
-}
 
 .cl-1, .cl-2{
     align-self: center;
@@ -22,11 +19,53 @@ nav{
     height: 20px;
 }
 
-.nav-item:hover{
+/* Barra inferior, Navbar */
+nav{
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.navbar{
+    height: 7vh;
+}
+
+h2{
+    color: white;
+}
+
+.h2left{
+    color: #408ec5;
+    width: 40px;
+    text-align: right;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.nv-menu, .nv-user{
+    background-color: rgb(24, 106, 173);
+    height: 7vh; 
+    width: 4vw;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.nv-user{
+    width: 3vw;
+}
+
+.nv-it-1{
+    width: 100px;
+    text-align: center;
+}
+.nv-lk-1{
+    color: white;
+}
+
+.nv-it-1:hover{
     background-color: white;
 }
-.nv-1:hover{
-    background-color: white;
+
+.nv-lk-1:hover{
+    color: black;
 }
 
 .imgnav{
