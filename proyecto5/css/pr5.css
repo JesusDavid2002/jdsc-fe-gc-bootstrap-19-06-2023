@@ -1,0 +1,54 @@
+h1{
+    color: rgb(0, 162, 255);
+}
+
+.cl-1, .cl-2{
+    align-items: center;
+}
+
+.cl-2{
+}
+
+#selector{
+    width: 120px;
+}
+
+#tr-main{
+    border-bottom: 4px solid rgb(192, 192, 192);
+}
+
+.tr-1{
+    
+}
+
+.tr-2{
+    background-color: rgb(216, 216, 216);
+}
+
+.th-1, .th-2, .th-3, .th-4, .th-5, .t-1, .t-2, .t-3, .t-4{
+    border: 1px solid rgb(192, 192, 192);
+    
+}
+
+.t-1, .t-2, .t-3, .t-4{
+    padding-top: 10px;
+    vertical-align: top;
+    height: 7vh;
+}
+
+.t-1{
+    width: 4vw;
+}
+
+.t-2{
+    width: 10vw;
+}
+
+.t-3{
+    width: 10vw;
+}
+
+.t-4{
+    width: 13vw;
+}
+
