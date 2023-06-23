@@ -55,21 +55,29 @@ h2{
 .nv-it-1{
     width: 100px;
     text-align: center;
+    display: flex;
 }
+
 .nv-lk-1{
     color: white;
 }
 
 .nv-it-1:hover{
     background-color: white;
-}
-
-.nv-lk-1:hover{
     color: black;
 }
 
-.imgnav{
+.imgnav, .divimgnav{
     width: 30px;
     height: 30px;
     margin: 5px;
+}
+
+.divimgnav{
+    background-image: url('../img/homehover.png');
+    background-size: cover;
+}
+
+.nav-item:hover .divimgnav{
+    background-image: url('../img/home.png');
 }
