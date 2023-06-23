@@ -53,9 +53,12 @@ h2{
 }
 
 .nv-it-1{
-    width: 100px;
-    text-align: center;
+    width: 7vw;
     display: flex;
+    margin-left: 15px;
+    padding-left: 5px;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .nv-lk-1{
@@ -67,10 +70,16 @@ h2{
     color: black;
 }
 
-.imgnav, .divimgnav{
+.imgnav{
     width: 30px;
     height: 30px;
     margin: 5px;
+}
+
+.divimgnav, .divimgnav2, .divimgnav3, .divimgnav4, .divimgnav5{
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
 }
 
 .divimgnav{
@@ -80,4 +89,82 @@ h2{
 
 .nav-item:hover .divimgnav{
     background-image: url('../img/home.png');
+}
+
+.divimgnav2{
+    background-image: url('../img/message_icon.png');
+    background-size: cover;
+}
+
+.nav-item:hover .divimgnav2{
+    background-image: url('../img/message_icon_hover.png');
+}
+
+.divimgnav3{
+    background-image: url('../img/setting_icon.png');
+    background-size: cover;
+}
+
+.nav-item:hover .divimgnav3{
+    background-image: url('../img/setting_icon_hover.png');
+}
+
+.divimgnav4{
+    background-image: url('../img/graduation_cap_icon.png');
+    background-size: cover;
+    margin-right: -5px;
+}
+
+.nav-item:hover .divimgnav4{
+    background-image: url('../img/graduation_cap_icon_hover.png');
+    margin-right: -5px;
+}
+
+.divimgnav5{
+    background-image: url('../img/plane_icon2.png');
+    background-size: cover;
+}
+
+.nav-item:hover .divimgnav5{
+    background-image: url('../img/paper_plane_icon_hover.png');
+}
+
+/* Esta parte corresponde al navbar collapsado */
+.navbar-collapse.collapse.show{
+    background-color: #4ca8eb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.navbar-collapse.collapse.show .nv-it-1{
+    justify-content: start;
+}
+
+.navbar-collapse.collapse.show .nv-text{
+    display: contents;
+    text-align: center;
+}
+
+.navbar-collapse.collapse.show .nv-menu, .navbar-collapse.collapse.show .nv-icon, .navbar-collapse.collapse.show .divimgnav, 
+.navbar-collapse.collapse.show .divimgnav2, .navbar-collapse.collapse.show .divimgnav3, 
+.navbar-collapse.collapse.show .divimgnav4, .navbar-collapse.collapse.show .divimgnav5 {
+    display: none;
+}
+.navbar-collapse.collapse.show form{
+    grid-column: 1/3;
+    margin-left: 5px;
+}
+
+.navbar-collapse.collapse.show .nv-user{
+    width: auto;
+}
+
+/* ---------------------------------------------------
+Media querys */
+
+@media (max-width: 1075px){
+    .rw-1{
+        display: none;
+    }
 }
