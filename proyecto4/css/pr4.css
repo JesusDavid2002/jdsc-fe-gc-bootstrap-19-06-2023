@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(189, 189, 189);
+}
+
+.rw-1{
+    
+    border-bottom: 4px solid rgb(231, 231, 231);
+}
+
+.cl-1{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    height: 6vh;
+}
+
+.nv-it-1{
+    height: 6vh;
+}
+
+.nv-it-1:hover{
+    box-shadow: inset 0px 0px 20px 5px rgb(194, 194, 194);
+}
+
+.nv-search{
+    width: 300px;
+}
+
+.btn-light{
+    box-shadow: inset 0px 0px 5px 2px rgb(194, 194, 194);
+}
+
+.rw-2{
+    background-color: white;
+}
+
+.cl-2{
+    background-color: rgb(228, 228, 228);
+}
+
+.img-art{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(177, 177, 177);
+}
+
+.navbar-collapse.collapse.show{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
